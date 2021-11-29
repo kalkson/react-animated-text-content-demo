@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-animated-text-content-demo/static/css/main.215e53ca.chunk.css",
+    "main.js": "/react-animated-text-content-demo/static/js/main.98de044b.chunk.js",
+    "main.js.map": "/react-animated-text-content-demo/static/js/main.98de044b.chunk.js.map",
+    "runtime-main.js": "/react-animated-text-content-demo/static/js/runtime-main.2144ee8f.js",
+    "runtime-main.js.map": "/react-animated-text-content-demo/static/js/runtime-main.2144ee8f.js.map",
+    "static/js/2.71973cd2.chunk.js": "/react-animated-text-content-demo/static/js/2.71973cd2.chunk.js",
+    "static/js/2.71973cd2.chunk.js.map": "/react-animated-text-content-demo/static/js/2.71973cd2.chunk.js.map",
+    "static/js/3.7eba14d9.chunk.js": "/react-animated-text-content-demo/static/js/3.7eba14d9.chunk.js",
+    "static/js/3.7eba14d9.chunk.js.map": "/react-animated-text-content-demo/static/js/3.7eba14d9.chunk.js.map",
+    "index.html": "/react-animated-text-content-demo/index.html",
+    "static/css/main.215e53ca.chunk.css.map": "/react-animated-text-content-demo/static/css/main.215e53ca.chunk.css.map",
+    "static/js/2.71973cd2.chunk.js.LICENSE.txt": "/react-animated-text-content-demo/static/js/2.71973cd2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2144ee8f.js",
+    "static/js/2.71973cd2.chunk.js",
+    "static/css/main.215e53ca.chunk.css",
+    "static/js/main.98de044b.chunk.js"
+  ]
+}
