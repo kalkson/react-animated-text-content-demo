@@ -11,11 +11,11 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route
-            path='/react-animated-text-content-demo'
+            path='react-animated-text-content-demo'
             element={<Showcase />}
           />
           <Route
-            path='/react-animated-text-content-demo/generator'
+            path='react-animated-text-content-demo/generator'
             element={<Generator />}
           />
         </Route>
