@@ -14,7 +14,10 @@ function App() {
             path='/react-animated-text-content-demo'
             element={<Showcase />}
           />
-          <Route path='/generator' element={<Generator />} />
+          <Route
+            path='/react-animated-text-content-demo/generator'
+            element={<Generator />}
+          />
         </Route>
       </Routes>
     </BrowserRouter>
