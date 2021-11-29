@@ -13,10 +13,13 @@ const Navigation = () => {
   return (
     <nav className='nav'>
       <div className='dot' ref={dotRef} />
-      <NavLink onClick={handleClick} to='/'>
+      <NavLink onClick={handleClick} to='react-animated-text-content-demo'>
         Showcase
       </NavLink>
-      <NavLink onClick={handleClick} to='generator'>
+      <NavLink
+        onClick={handleClick}
+        to='react-animated-text-content-demo/generator'
+      >
         Generator
       </NavLink>
     </nav>
