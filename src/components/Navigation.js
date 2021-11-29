@@ -18,7 +18,7 @@ const Navigation = () => {
       </NavLink>
       <NavLink
         onClick={handleClick}
-        to='react-animated-text-content-demo/#/generator'
+        to='react-animated-text-content-demo/generator'
       >
         Generator
       </NavLink>
