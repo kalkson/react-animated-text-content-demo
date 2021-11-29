@@ -37,10 +37,7 @@ const Generator = () => {
   const [code, setCode] = useState(null);
   const [isCodeVisible, setCodeVisible] = useState(null);
   const formRef = useRef(null);
-
-  const handleClick = () => {
-    setCodeVisible(true);
-  };
+  const submitButtonRef = useRef(null);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -55,8 +52,6 @@ const Generator = () => {
         [pair[0]]: pair[1] === '' ? null : pair[1],
       };
     }
-
-    console.log(emptyFormData);
 
     const generatedCode = `<AnimatedText
     type='${emptyFormData.type}'
@@ -74,6 +69,11 @@ const Generator = () => {
 
     setCode(generatedCode);
     setFormData(emptyFormData);
+  };
+
+  const handleClick = () => {
+    submitButtonRef.current.click();
+    setCodeVisible(true);
   };
 
   return (
@@ -194,9 +194,11 @@ const Generator = () => {
             defaultValue='Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, qui commodi? Quod aut nihil ipsa? Modi esse dicta neque nihil!'
           ></textarea>
         </label>
-        <button type='submit'>Generate</button>
         <button type='button' onClick={handleClick}>
           Get code
+        </button>
+        <button type='submit' ref={submitButtonRef}>
+          Generate
         </button>
       </form>
       {isCodeVisible && code && (
