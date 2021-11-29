@@ -9,8 +9,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Layout />}>
-          <Route path='/' element={<Showcase />} />
+        <Route path='/react-animated-text-content-demo' element={<Layout />}>
+          <Route
+            path='/react-animated-text-content-demo'
+            element={<Showcase />}
+          />
           <Route path='/generator' element={<Generator />} />
         </Route>
       </Routes>
